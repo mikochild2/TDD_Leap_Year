@@ -1,9 +1,9 @@
 public class LeapYear {
    public boolean processYear(int year) {
        if (year %4 ==0 && year%100 != 0) {
-           return year;
+           return true;
        }else {
-           return year;
+           return false;
        }
    } 
 }
