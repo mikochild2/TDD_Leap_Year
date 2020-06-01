@@ -4,8 +4,6 @@ public class LeapYear {
            return true;
        }else if (isDivisableBy4(year) & isDivisableBy100And400(year)) {
            return true;
-       } else if (isDivisableBy4(year)){
-           return true;
        } else{
            return false;
        }
