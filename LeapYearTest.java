@@ -9,5 +9,7 @@ public class LeapYearTest {
         LeapYear leapYear = new LeapYear();
         assertEquals(true, leapYear.processYear(1996));
         assertEquals(false, leapYear.processYear(2001));
+        assertEquals(true, leapYear.processYear(2000));
+        assertEquals(false, leapYear.processYear(1900));
     }
 }
